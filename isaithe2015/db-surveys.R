@@ -1,5 +1,3 @@
-setwd("input")
+setwd("db")
 
-file.copy("model.cfg", "../run")
-file.copy("sam.dat",   "../run")
-file.copy("sam.pin",   "../run")
+read.csv("http://data.hafro.is/assmt/2015/saithe/smb.csv")
